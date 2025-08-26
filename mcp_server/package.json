@@ -1,0 +1,23 @@
+{
+  "name": "mcp-todoist-server",
+  "version": "1.0.0",
+  "description": "An MCP server that provides Todoist tools to an AI agent.",
+  "main": "server.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "keywords": [
+    "mcp",
+    "ai-agent",
+    "todoist"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@doist/todoist-api-typescript": "^5.1.2",
+    "@modelcontextprotocol/sdk": "^0.5.0",
+    "node-fetch": "^3.3.2",
+    "zod": "^3.25.76"
+  }
+}
